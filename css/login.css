@@ -1,0 +1,31 @@
+.wangzhi{width:48%; text-align:center; margin:150px auto 0px; }
+.wangzhi img{width:100%}
+#tishi{width:100%; text-align:center; color:#F00; display:none; font-size:16px;}
+.tishi2{width:99%; text-align:left; color:#6666ff;font-size:16px;}
+.message{width:39%; text-align:left; color:#6666ff; font-size:16px; margin:20px auto;}
+.back{width:48%; text-align:center; margin:30px auto; }
+.back ul li{width:45%; height:60px; background:#cccccc;}
+.back ul li a{padding-top:20px; color:#ffffff; font-size:18px; line-height:60px; text-decoration:none; }
+.back ul li a:hover{color:#6666ff;}
+#login{ width:38%; text-align:center; margin:20px auto; height:530px;}
+#loginform{text-align:center; margin:20px auto;}
+#loginform input{ width:97%; height:40px; padding:5px; margin-top:10px; font-size:18px; box-shadow:3px 3px 3px #666;}
+#loginform #vdcode{width:57%; float:left;}
+#loginform #submitlogin{width:97%; box-shadow:3px 3px 3px #666; height:45px; margin-top:15px;font-size:24px; cursor:pointer; background:#ffffff;}
+.round{-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;}
+#loginform #vdimgck{width:37%; float:right; margin-top:10px; height:50px;}
+
+#loginfooter{ width:100%; float:left;}
+#loginfooter dd{width:50%; float:left;}
+.txl{text-align:left;}
+.txr{text-align:right;}
+#loginfooter span{color:#ffffff;}
+#loginfooter a{color:#000;}
+#loginform #mobileCode{width:52%; float:left;}
+#loginform #sendSms{width:40%; float:right; height:50px; margin-top:10px; background:#6766ff; cursor:pointer;}
+
+#loginform .agree{float:left}
+#loginform .agree #read{width:5%; float:left;}
+#loginform .agree  a{float:left; padding-top:20px; color:#6666ff; font-size:16px; }
