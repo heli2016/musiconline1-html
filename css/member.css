@@ -206,3 +206,19 @@ opacity:0.7;overflow:hidden; border:0;}
 
 .pnbox{width:30%; height:35px; float:left; color:#F00; margin-top:20px;}
 .pnbox a{ color:#F00; text-decoration:none;}
+
+.score{float:right; color:#000; text-decoration:underline; margin-right:10%;}
+.score span{ color:#ff6666; margin:0; padding:2px;}
+
+#thlb{}
+#thlb .top{ width:90%; height:30px; line-height:30px; color:#ffffff; font-size:18px; float:left;}
+#thlb .bottom{width:90%;float:left;}
+#thlb .bottom ul{margin-left:2%; float:left; width:65%;}
+#thlb .bottom ul li{ float:left; width:30px; height:30px; line-height:30px; font-size:18px; text-align:center;}
+.dashed{width:90%; height:50px; border-bottom:2px dashed #FF0000; float:left;}
+#ckda{}
+#ckda .top{ width:90%; height:30px; line-height:30px; color:#ffffff; font-size:18px; float:left;}
+#ckda .bottom{width:90%;float:left;}
+#ckda .bottom ul{margin-left:2%; float:left; width:95%;}
+#ckda .bottom ul li{ float:left; width:120px; height:20px; line-height:20px; font-size:16px; text-align:center; border-right:1px solid #000; margin-top:10px;}
+#ckda .bottom ul li span{padding-left:15%;}
