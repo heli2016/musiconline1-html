@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/member.css" type="text/css" media="all">
-
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
   <!--[if lt IE 9]>
   	<script type="text/javascript" src="js/html5.js"></script>
 	<style type="text/css">
@@ -21,15 +21,18 @@
 	<![endif]-->
 
 <script type="text/javascript">
- function checked(){
-	  var check = document.getElementsByTagName("input");
-	  
+ function isChecked(Obj){
+	  //var check = document.getElementById(obj);
+	  //alert(obj);
+	 // alert($(this).next(input).find(":radio").attr("checked"));
+	  //$(this).next(input).attr("checked",true);
 	  //$(this).find(":radio").attr("checked",'checked');
-	 //check.find(":radio").attr("checked",true);
+	 //check.find(":radio").attr("cheked",true);
 	 //alert(check.find(":radio").val());
 	 //alert(check.oninput);
 	// $(this).getElementsByTagName("input")
 	 //$('#xuanxunit').find(document.getElementsByName("answers")).attr("checked",'checked');
+	 $(Obj).find("input[type=radio]").prop("checked",true);
  }
 </script>
 </head>
@@ -119,25 +122,25 @@
 </div>
 <div class="xuanxbox">
 <form action="" method="post" name="answer">
-<div id="xuanxunit" onClick="checked()">
+<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
 <input name="answers" value="A" type="radio">A
 </div>
-<div id="xuanxunit" onClick="checked()">
+<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
 <input name="answers" value="B" type="radio">B
 </div>
-<div id="xuanxunit" onClick="checked()">
+<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
 <input name="answers" value="C" type="radio">C
 </div>
-<div id="xuanxunit" onClick="checked()">
+<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
