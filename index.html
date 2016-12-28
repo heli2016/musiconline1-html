@@ -97,9 +97,16 @@
 					</section>
 					<section class="cols pad_left1">
 						<h3><span class="dropcap">C</span>关于购买<span style="font-size:20px;">Step to Buy</span></h3>
-						<p class="pad_bot1">会员必须先购买后才能进行学习，更买方式包含<a href="#" class="">淘宝商城购买</a>和<a href="#" class="">微信扫码购买</a>。</p>
+						<p class="pad_bot1">会员必须先购买后才能进行学习，更买方式包含<a href="#" class="">淘宝商城购买</a>和<a href="#" class="">微店购买</a>。</p>
 						<a href="#" class="link1">淘宝商城购买</a>
-                        <a href="#" class="link1">微信扫码购买</a>
+                        <a href="javascript:" class="link1" onmouseover="document.getElementById('weidian_nr').style.display='block';" onmouseout="document.getElementById('weidian_nr').style.display='none';" onmousedown="document.getElementById('weidian_nr').style.display='block';" id="weidian">扫码微店购买</a>
+                        <div id="weidian_nr">
+                        <img src="images/weidiancode1.jpg">
+                        </div>
+                        <script type="application/javascript">
+						var X = $('#weidian').offset().top;
+						$("#weidian_nr").css("top",X-300);
+						</script>
 					</section>
 					<section class="cols pad_left1">
 						<h3><span class="dropcap">D</span>教师交流<span style="font-size:20px;">Jion US</span></h3>
@@ -118,35 +125,12 @@
 						</div>
 					</section>
 					<section class="col2 pad_left3">
-						<h2>最新消息</h2>
+						<h2>微店购买</h2>
 						<div class="testimonials">
-						<div id="testimonials">
-						  <ul>
-							<li>
-								<div>
-									1第一音乐在线网最新发布，全面支持手机，PAD,PC,支持主流浏览器IE 火狐 Safari等，欢迎使用。
-								</div>
-								<span><strong class="color1">甄老师发布</strong> <br>
-								2017-1-1</span>
-							</li>
-							<li>
-								<div>
-									2第一音乐在线网最新发布，全面支持手机，PAD,PC,支持主流浏览器IE 火狐 Safari等，欢迎使用。
-								</div>
-								<span><strong class="color1">甄老师发布</strong> <br>
-								2017-1-1</span>
-							</li>
-							<li>
-								<div>
-									3第一音乐在线网最新发布，全面支持手机，PAD,PC,支持主流浏览器IE 火狐 Safari等，欢迎使用。
-								</div>
-								<span><strong class="color1">甄老师发布</strong> <br>
-								2017-1-1</span>
-							</li>
-						  </ul>
-						</div>
-						<a href="#" class="up"></a>
-						<a href="#" class="down"></a>
+						<div class="p1">音基老师工作室微店上线了</div>
+                        <div><img src="images/weidiancode.jpg"></div>
+						<div class="p2">扫一扫&nbsp;&nbsp;就购了</div>
+						<div class="p3">音基老师微店等你来购</div>
 						</div>
 					</section>
 				</div>
