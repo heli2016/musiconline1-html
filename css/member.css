@@ -222,3 +222,56 @@ opacity:0.7;overflow:hidden; border:0;}
 #ckda .bottom ul{margin-left:2%; float:left; width:95%;}
 #ckda .bottom ul li{ float:left; width:120px; height:20px; line-height:20px; font-size:16px; text-align:center; border-right:1px solid #000; margin-top:10px;}
 #ckda .bottom ul li span{padding-left:15%;}
+
+#thlb .bottom  p{margin:0 auto; height:25px; line-height:25px; color:#000; padding:0; font-weight:bold;}
+#thlb .bottom  p span{color:#F00;}
+#thlb .bottom .height50{height:50px;}
+
+
+#person{}
+#person .top{ width:90%; height:30px; line-height:30px; color:#ffffff; font-size:18px; float:left;}
+#person .bottom{width:90%;}
+#person .bottom ul {
+    font-size: 14px;
+    line-height: 23px;
+}
+#person .bottom li {
+    padding: 10px 0;
+}
+#person .bottom li span.is-t {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    width: 150px;
+}
+#person .bottom form{display:none;}
+#person .bottom input{border:1px #000 solid;}
+
+
+#upbgcolor{ float:left; padding:0;}
+#upbgcolor .top{ width:90%; height:30px; line-height:30px; color:#ffffff; font-size:18px; float:left; margin-top:0px;}
+#upbgcolor .bottom{width:90%; float:left;}
+#upbgcolor .bottom ul {
+    font-size: 14px;
+    line-height: 23px;
+	margin-top:10px;
+}
+#upbgcolor .bottom li {
+	width:150px;
+	height:50px;
+	margin-left:15%;
+	margin-top:10px;
+	margin-bottom:20px;
+	float:left;
+	padding:0;
+}
+#s1{background:#FFCCCC;}
+#s2{background:#993399;}
+#s3{background:#FF6666;}
+#s4{background:#cc6666;}
+#s5{background:#66cccc;}
+#s6{background:#33cccc;}
+#s7{background:#99cc00;}
+#s8{background:#99cc66;}
+#s9{background:#0099cc;}
+#s10{background:#336699;}
