@@ -197,8 +197,8 @@ opacity:0.7;overflow:hidden; border:0;}
 #pagemember #menu .l_t_lb li a:hover,#pagemember #menu .l_t_lb li a:active,#pagemember #menu .l_t_lb li a:visited{ color:#ffffff; background:url(../images/munebg2.png) no-repeat;}
 
 .shiti{margin:0 auto; width:90%; border-top:5px #cccccc solid; float:left; height:635px; margin-left:5%;}
-.shiti .titlebox{width:60%; float:left;}
-.shiti .musicbox{width:30%; float:right; height:25px;}
+.shiti .titlebox{width:58%; float:left;}
+.shiti .musicbox{width:40%; float:right; height:25px;}
 .shiti .xuanxbox{width:100%; float:left;}
 .shiti .imgbox{border-bottom:1px #000 dashed;}
 .shiti .xuanxbox .imgbox img{max-width:100%; max-height:100px;}
