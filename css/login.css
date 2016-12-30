@@ -12,6 +12,7 @@
 #loginform input{ width:97%; height:40px; padding:5px; margin-top:10px; font-size:18px; box-shadow:3px 3px 3px #666;}
 #loginform #vdcode{width:57%; float:left;}
 #loginform #submitlogin{width:97%; box-shadow:3px 3px 3px #666; height:45px; margin-top:15px;font-size:24px; cursor:pointer; background:#ffffff;}
+
 .round{-moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius:15px;}
@@ -27,5 +28,5 @@
 #loginform #sendSms{width:40%; float:right; height:50px; margin-top:10px; background:#6766ff; cursor:pointer;}
 
 #loginform .agree{float:left}
-#loginform .agree #read{width:5%; float:left;}
+#loginform .agree #read{float:left;margin:7px 5px 0 8px;*+margin-top:3px;*+margin-left:5px; width:20px; box-shadow:none;}
 #loginform .agree  a{float:left; padding-top:20px; color:#6666ff; font-size:16px; }
