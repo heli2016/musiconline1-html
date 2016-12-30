@@ -11,7 +11,7 @@
 #loginform{text-align:center; margin:20px auto;}
 #loginform input{ width:97%; height:40px; padding:5px; margin-top:10px; font-size:18px; box-shadow:3px 3px 3px #666;}
 #loginform #vdcode{width:57%; float:left;}
-#loginform #submitlogin{width:97%; box-shadow:3px 3px 3px #666; height:45px; margin-top:15px;font-size:24px; cursor:pointer; background:#ffffff;}
+#loginform #submitlogin,#loginform #submitReg{width:97%; box-shadow:3px 3px 3px #666; height:45px; margin-top:15px;font-size:24px; cursor:pointer; background:#ffffff;}
 
 .round{-moz-border-radius: 15px;
     -webkit-border-radius: 15px;
