@@ -49,7 +49,7 @@
 		</script>
 
 </head>
-<body id="pagemember">
+<body id="pagetest">
 <div class="body7">
 <div class="main">
 <div style="height:50px;"></div>
@@ -124,10 +124,8 @@
 </div>
 
 <div class="shiti">
-<div class="titlebox">
-1，根据播放的音响，所给谱例中“口”内的音符是（）。
-</div>
 <div class="musicbox">
+<div class="musicbox0">
 <audio preload="auto" controls>
 				<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
 			</audio>
@@ -135,37 +133,52 @@
 			<script src="js/audioplayer.js"></script>
 			<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 </div>
+<div class="musicbox1">第<span>1</span>次播放</div>
+
+<div class="musicbox2">剩余<span>00:00:24</span></div>
+<div class="musicbox1"></div>
+<div class="musicbox3"><a href="#">暂停播放</a></div>
+</div>
+<div class="titlebox">
+1，根据播放的音响，所给谱例中“口”内的音符是（）。
+</div>
+
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
 <div class="xuanxbox">
 <form action="" method="post" name="answer">
 <div id="xuanxunit" onClick="isChecked(this)">
-<div class="imgbox">
-<img src="images/shiimg.png" alt="">
-</div>
 <input name="answers" value="A" type="radio">A
-</div>
-<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
+
+</div>
+<div id="xuanxunit" onClick="isChecked(this)">
 <input name="answers" value="B" type="radio">B
-</div>
-<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
+
+</div>
+<div id="xuanxunit" onClick="isChecked(this)">
 <input name="answers" value="C" type="radio">C
-</div>
-<div id="xuanxunit" onClick="isChecked(this)">
 <div class="imgbox">
 <img src="images/shiimg.png" alt="">
 </div>
+
+</div>
+<div id="xuanxunit" onClick="isChecked(this)">
 <input name="answers" value="D" type="radio">D
+<div class="imgbox">
+<img src="images/shiimg.png" alt="">
+</div>
+
 </div>
 </form>
 </div>
+<div id="pagejieguo">答错了，正确答案是C</div>
 <div class="pnbox ml20">
 <a href="#">上一题</a>
 </div>
@@ -175,6 +188,7 @@
 <div class="pnbox">
 <a href="#">下一题</a>
 </div>
+
 </div>
 
 </div>
