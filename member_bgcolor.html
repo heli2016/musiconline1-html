@@ -149,8 +149,8 @@
 <div class="top ml20">
 默认MP3播放器开关
 </div>
-<div class="bottom ml60 mt12">
-<span class="mr20">默认MP3播放</span>
+<div id="zdbofang" class="bottom ml60 mt12">
+<span class="mr20">设置自动播放</span>
 <input class="form-control" type="checkbox" checked>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -160,6 +160,21 @@
       $('[type="checkbox"]').bootstrapSwitch();
     })
     </script>
+</div>
+<div id="zdduti" class="bottom ml60 mt12">
+<span class="mr20">设置是否读题</span>
+<input class="form-control" type="checkbox" checked>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script>
+    $(function(argument) {
+      $('[type="checkbox"]').bootstrapSwitch();
+    })
+    </script>
+</div>
+<div class="bottom ml60 mt12">
+ 注：苹果移动端Safari不支持自动播放，请点击播放按钮播放音乐
 </div>
 </div>
 
