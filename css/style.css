@@ -62,8 +62,8 @@ header{padding-top:34px;height:148px}
 .slider  .pagination a:hover, .slider  .pagination .current a{background-position:left}
 
 #formlogin1{}
-#formlogin1 input{border:1px solid #ffcccc; width:100%;}
-
+#formlogin1 input{border:1px solid #ffcccc; width:100%; height:20px; padding:5px; margin-top:3px;}
+.mfsy{margin-top:75px;}
 /* ============================= content ====================== */
 #content{padding-top:50px;padding-bottom:36px}
 #content2{padding-bottom:50px}
@@ -73,7 +73,7 @@ header{padding-top:34px;height:148px}
 .pad_bot1{padding-bottom:8px}
 .pad_bot2{padding-bottom:40px}
 .marg_right1{margin-right:20px}
-.link1{color:#ffcccc;font-style:normal}
+.link1{color:#ff6666;font-style:normal}
 .link2{color:#333333;font-style:normal; font-size:16px;}
 .link3{color:#333333;font-style:normal;}
 .testimonials{width:100%;position:relative;z-index:1;overflow:hidden; color:#000;}
@@ -96,7 +96,7 @@ header{padding-top:34px;height:148px}
 .list1 a:hover{color:#fff}
 .address{background:url(../images/line_hor1.png) 0px 0 no-repeat;padding-top:1px}
 .address li{background:url(../images/line_hor1.png) 0px bottom no-repeat;line-height:29px;font-style:normal}
-.address span{padding-left:4px;float:left;width:62px}
+.address span{padding-left:4px;float:left;width:62px;}
 .address a{color:#fff}
 #icons{background:url(../images/line_hor1.png) 23px 0 no-repeat;padding-top:1px}
 #icons li{background:url(../images/line_hor1.png) 23px bottom no-repeat;line-height:29px}

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/member.css" type="text/css" media="all">
-
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
   <!--[if lt IE 9]>
   	<script type="text/javascript" src="js/html5.js"></script>
 	<style type="text/css">
@@ -19,6 +19,17 @@
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
 		</div>
 	<![endif]-->
+<script language="javascript" type="text/javascript">
+
+function change_bg(obj){
+var a=document.getElementsByClassName("left")[0].getElementsByTagName("a");
+for(var i=0;i<a.length;i++){a[i].className="";}
+obj.className="current";
+//$(obj).css('color','white');
+//$(obj).parent().siblings().children().css('color','black');
+//$(obj).parent().siblings().children().className="";
+}
+</script>
 </head>
 <body id="pagemember">
 <div class="body7">
@@ -70,12 +81,12 @@
 </div>
 <div>
 <ul>
-<li class="tit5"><a href="#">音基初级</a></li>
-<li class="tit5"><a href="#">视唱初级</a></li>
-<li class="tit5"><a href="#">模唱初级</a></li>
-<li class="tit5"><a href="#">全真题库初级</a></li>
-<li class="tit5"><a href="#">模拟考试初级</a></li>
-<li class="tit5"><a href="#">随机试题初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">音基初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">视唱初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">模唱初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">全真题库初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">模拟考试初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">随机试题初级</a></li>
 </ul>
 </div>
 <div class="tit4">
@@ -83,8 +94,8 @@
 </div>
 <div>
 <ul>
-<li class="tit5"><a href="#">分类试题初级</a></li>
-<li class="tit5"><a href="#">随机出题初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">分类试题初级</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">随机出题初级</a></li>
 </ul>
 </div>
 
@@ -94,10 +105,8 @@
 </div>
 <div>
 <ul>
-<li class="tit5"><a href="#">我的资料</a></li>
-<li class="tit5"><a href="#">未完成题库</a></li>
-<li class="tit5"><a href="#">已完成题库</a></li>
-<li class="tit5"><a href="#">今日已用IP</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">我的资料</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">今日已用IP</a></li>
 </ul>
 </div>
 <div class="tit2">
@@ -106,8 +115,8 @@
 </div>
 <div>
 <ul>
-<li class="tit5"><a href="#">一键换皮肤</a></li>
-<li class="tit5"><a href="#">音频设置</a></li>
+<li class="tit5"><a href="#" onclick="change_bg(this)">一键换皮肤</a></li>
+<li class="tit5"><a href="member_bgcolor.html#mp3md" onclick="change_bg(this)">音频设置</a></li>
 </ul>
 </div>
 <div style="height:20px; float:left; width:100%;">

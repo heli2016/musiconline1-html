@@ -102,8 +102,6 @@
 <div>
 <ul>
 <li class="tit5"><a href="#">我的资料</a></li>
-<li class="tit5"><a href="#">未完成题库</a></li>
-<li class="tit5"><a href="#">已完成题库</a></li>
 <li class="tit5"><a href="#">今日已用IP</a></li>
 </ul>
 </div>
@@ -114,7 +112,7 @@
 <div>
 <ul>
 <li class="tit5"><a href="#">一键换皮肤</a></li>
-<li class="tit5"><a href="#">音频设置</a></li>
+<li class="tit5"><a href="#mp3md">音频设置</a></li>
 </ul>
 </div>
 <div style="height:20px; float:left; width:100%;">
@@ -130,7 +128,7 @@
 <div id="upbgcolor">
 <div class="top ml20">
 一键换皮肤
-<a href="" class="right">重置默认设置</a>
+<a href="" class="rechangebg">重置默认设置</a>
 </div>
 <div class="bottom ml60">
 <ul>
@@ -149,8 +147,8 @@
 <div class="top ml20">
 默认MP3播放器开关
 </div>
-<div class="bottom ml60 mt12">
-<span class="mr20">默认MP3播放</span>
+<div id="zdbofang" class="bottom ml60 mt12">
+<span class="mr20">设置自动播放</span>
 <input class="form-control" type="checkbox" checked>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -160,6 +158,21 @@
       $('[type="checkbox"]').bootstrapSwitch();
     })
     </script>
+</div>
+<div id="zdduti" class="bottom ml60 mt12">
+<span class="mr20">设置是否读题</span>
+<input class="form-control" type="checkbox" checked>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script>
+    $(function(argument) {
+      $('[type="checkbox"]').bootstrapSwitch();
+    })
+    </script>
+</div>
+<div class="bottom ml60 mt12">
+ 注：苹果移动端Safari不支持自动播放，请点击播放按钮播放音乐
 </div>
 </div>
 
@@ -181,5 +194,5 @@
 <!-- footer end -->
 		</div>
       </div>
-
+<a name="mp3md"></a>
 </body></html>
