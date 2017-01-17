@@ -202,6 +202,7 @@ opacity:0.7;overflow:hidden; border:0;}
 #pagetest #menu2 .tit7{height:30px; line-height:20px; font-size:18px; color:#ffffff; text-align:center; background:#cccccc; float:left; width:100%;}
 #pagetest #menu2 .tit8{height:20px; font-family:"Microsoft YaHei"; line-height:20px; font-size:18px; color:#ffffff; text-align:center; background:#cccccc; float:left; width:100%;}
 #pagetest #menu2 .l_t_lb{ background:#cccccc; float:left;}
+#pagetest #menu2 .l_t_lb ul{height:300px; overflow:hidden;}
 #pagetest #menu2 .l_t_lb li{float:left;padding-left:0;}
 #pagetest #menu2 .l_t_lb li a{ height:30px; font-size:18px; color:#000000; line-height:30px; text-decoration:none; width:100%; float:left}
 #pagetest #menu2 .l_t_lb li a:hover,#pagetest #menu2 .l_t_lb li a:active{ color:#ffffff; background:url(../images/munebg.png) no-repeat;}
