@@ -500,8 +500,9 @@ header{padding-top:34px;height:80px}
 .page-box{width:100%;}
 #tikutable ul{width:100%;}
 #tikutable li.lb{width:50%; margin-left:2%; border-left:1px solid #ccc;}
-#tikutable li.zt{width:15%;}
-#tikutable li.df{width:15%;}
+#tikutable li.zt{width:14%;}
+#tikutable li.df{width:13%;}
+#tikutable li.cz{width:18%;}
 #tikutable li.gx{display:none;}
 #tikutable li.xx{display:none;}
 }
