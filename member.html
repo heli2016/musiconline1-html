@@ -74,9 +74,39 @@ obj.className="current";
 <div class="logobox">
 <img src="images/logo.png">
 </div>
-<div class="iconbox">
+<div class="iconbox" id="toggleMenu">
 <img src="images/icon_04.png">
 </div>
+       
+                <ul id="togglelist">
+                    <li>
+                        <a href="#">返回首页</a>
+                    </li>
+                    <li>
+                        <a href="#">退出当前账号</a>
+                    </li>
+                </ul>
+           
+<script type="text/javascript">
+
+		var toggle = document.getElementById("toggleMenu");
+		var list = document.getElementById("togglelist");
+		var isHidden = true;
+
+		window.onload = function() {
+			toggle.onclick=function(){
+				if(isHidden){
+					list.style.right="0px";
+					isHidden = false;
+				}else{
+					list.style.right="-200px";
+					isHidden = true;
+				}
+			}
+		}
+	
+</script>
+
 <div class="mesbox">
 <dl>
 <dt>丁云</dt>
@@ -216,7 +246,7 @@ obj.className="current";
 <li class="df">100</li>
 <li class="gx">2016-09-11</li>
 <li class="xx"><a href="">查看</a></li>
-<li class="cz"><a href="">重新测试</a></li>
+<li class="cz1"><a href="">继续测试</a><br><a href="">重新测试</a></li>
 </ul>
 <ul>
 <li class="lb">初级模拟试题第一套</li>
