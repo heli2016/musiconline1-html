@@ -87,17 +87,18 @@ opacity:0.7;overflow:hidden; border:0;}
 #pagemember .main3 .four ul li a{color:#000000; text-decoration:none;}
 #pagemember .main3 .four ul li a:hover{color:#ff6666;}
 #tikutable{ margin:0 auto; margin-left:20px; float:left; width:760px;}
-#tikutable ul {width:97%;height:30px;list-style:none} 
+#tikutable ul {width:97%;height:60px;line-height:60px;} 
 #tikutable ul.lbtop{background:#cccccc;height:30px;}
 #tikutable ul.lbtop li {border-right:1px solid #ccc;border-bottom:1px solid #ccc;float:left;height:30px;text-align:center;line-height:30px; font-size:16px;}
-#tikutable li {border-right:1px solid #ccc;border-bottom:1px solid #ccc;float:left;height:30px;text-align:center;line-height:25px; font-size:16px;}
+#tikutable li {border-right:1px solid #ccc;border-bottom:1px solid #ccc;float:left;text-align:center;font-size:16px;}
 #tikutable li.lb{width:30%; border-left:1px solid #ccc;}
 #tikutable li.zt{width:15%;}
 #tikutable li.df{width:12%;}
 #tikutable li.gx{width:15%;}
 #tikutable li.xx{width:12%;}
 #tikutable li.cz{width:15%;}
-#tikutable li.cz a{color:#ff6666;}
+#tikutable li.cz1{width:15%;line-height:30px;}
+#tikutable li.cz a,#tikutable li.cz1 a{color:#ff6666;}
 
 
 
@@ -413,33 +414,30 @@ text-align:center;
 font-weight:bold;
 float:left;
 }
+.m_header2 a{text-align:center}
 .m_header2 a:link{
 color:#336601;
 text-decoration:none;
 float:left;
-width:100px;
-padding:3px 5px 0px 5px;
+width:100%;
 }
 .m_header2 a:visited{
 color:#336601;
 text-decoration:none;
 float:left;
-padding:3px 5px 0px 5px;
-width:100px;
+width:100%;
 }
 .m_header2 a:hover{
 color:white;
 float:left;
-padding:3px 3px 0px 20px;
-width:88px;
+width:100%;
 text-decoration:none;
 background-color:#539D26;
 }
 .m_header2 a:active{
 color:white;
 float:left;
-padding:3px 3px 0px 20px;
-width:88px;
+width:100%;
 text-decoration:none;
 background-color:#BD06B4;
 }
@@ -476,7 +474,7 @@ background-color:#F5F5F5;
 color:#999999;
 border:1px solid #EEE8DD;
 padding:3px 0px;
-overflow-y:hidden;
+overflow:hidden;
 cursor:hand;
 }
 
@@ -503,8 +501,44 @@ header{padding-top:34px;height:80px}
 #tikutable li.zt{width:14%;}
 #tikutable li.df{width:13%;}
 #tikutable li.cz{width:18%;}
+#tikutable li.cz1{width:18%;line-height:30px;}
 #tikutable li.gx{display:none;}
 #tikutable li.xx{display:none;}
+
+
+            #togglelist{
+                    list-style: none;
+                    background-color: #455552;
+                    position: absolute;
+                    top: 90px;
+                    right: -200px;
+                    width: 120px;
+                    -webkit-transition: all .5s ease-in-out;
+                    -moz-transition: all .5s ease-in-out;
+                    -ms-transition: all .5s ease-in-out;
+                    -o-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+					z-index:12223444;
+                }
+               #togglelist li{
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    text-align: center;
+                    width: 120px;
+                }
+               #togglelist li a{
+                    text-decoration: none;
+                    color:#FFF;
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px; 
+					width:100%;
+					padding:0;
+                }
+                #togglelist li:hover{
+                    background-color: rgba(26,188, 156, 0.75);
+                }
 }
 
 
