@@ -50,25 +50,6 @@ $(obj).parent().siblings().children().css('color','black');
 	 $(Obj).find("input[type=radio]").prop("checked",true);
  }
  
-function up(){
-	var li=$("#u li:last-child");
-    	var bottom=parseInt(li.css('margin-bottom'));
-		var newLi=li.clone();
-		$("#u").prepend(newLi);
-		li.remove();
-}
-function down(){
-	var li=$("#u li:first");
-    	var top=parseInt(li.css('margin-top'));
-		top-=30;
-		if(top<=-30){
-    		var newLi=li.clone();
-    		newLi.css("margin-top",0);
-    		$("#u").append(newLi);
-    		li.remove();
-    	}else{
-    	}
-}
 </script>
 		<link rel="stylesheet" href="css/audioplayer.css" />
 		<script>
@@ -100,7 +81,7 @@ function down(){
 分级试题
 </div>
 <div class="tit8" onClick="up()">
-<a href="#">∧</a>
+<a href="javascript:;">∧</a>
 </div>
 <div class="l_t_lb">
 <ul id="u">
@@ -137,9 +118,37 @@ function down(){
 </ul>
 </div>
 <div class="tit8" onClick="down()">
-<a href="#">∨</a>
+<a href="javascript:;">∨</a>
 </div>
-
+<script type="text/javascript">
+var m=0;
+var length=$("#u li").length;
+function up(){
+	var li=$("#u li:last-child");
+    	var bottom=parseInt(li.css('margin-bottom'));
+		if(m!=0){
+		var newLi=li.clone();
+		$("#u").prepend(newLi);
+		li.remove();
+		m--;
+		}
+}
+function down(){
+	var li=$("#u li:first");
+    	var top=parseInt(li.css('margin-top'));
+		top-=30;
+		if(m<length-10){
+		if(top<=-30){
+    		var newLi=li.clone();
+    		newLi.css("margin-top",0);
+    		$("#u").append(newLi);
+    		li.remove();
+			m++;
+    	}else{
+    	}
+		}
+}
+</script>
 </div>
 </div>
 <div class="right">
