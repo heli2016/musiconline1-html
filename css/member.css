@@ -214,8 +214,8 @@ opacity:0.7;overflow:hidden; border:0;}
 .shiti{margin:0 auto; width:90%; border-top:5px #cccccc solid; float:left; min-height:635px; margin-left:5%;}
 .shiti .titlebox{width:100%; font-size:18px; color:#ff0000;}
 /*201712新加样式*/
-.shiti .shichangbox{width:100%; height:37px; margin-top:40px; margin-bottom:30px; float:left}
-.shiti .shichangbox0{width:70%; height:37px; margin-top:1px; margin-left:10%; float:left}
+.shiti .shichangbox{width:100%; margin-top:40px; margin-bottom:30px;}
+.shiti .shichangbox0{width:70%; height:37px; margin:1px auto;}
 /*201712新加样式*/
 .shiti .musicbox{width:100%; margin-top:1px; float:left;padding-bottom:10px;}
 .shiti .musicbox0{width:40%; height:37px; margin-top:1px; float:left}
@@ -229,7 +229,7 @@ opacity:0.7;overflow:hidden; border:0;}
 .shiti .imgbox img{max-width:100%; height:auto;opacity:0.7;}
 .shiti #xuanxunit {font-size:24px; margin-top:15px;}
 
-.pnbox{width:30%; height:35px; float:left; color:#F00; margin-top:20px;}
+.pnbox{width:30%; height:35px; float:left; margin-top:20px;}
 .pnbox a{ color:#F00; text-decoration:none; font-size:18px;}
 
 .score{float:right; color:#000; text-decoration:underline; margin-right:10%; font-size:16px;}
@@ -478,10 +478,25 @@ overflow:hidden;
 cursor:hand;
 }
 
+
+.shiti .zzbfbox{width:100%; text-align:center; margin-top:20px; font-size:18px;}
+.shiti .scprebox{width:100%; margin-top:20px; }
+.scprebox .scpre{width:50%; text-align:center; float:left;}
+.scpre a{ color:#F00; text-decoration:none; font-size:18px;}
+.shiti .ypbox{width:100%; text-align:center; margin-top:20px; font-size:18px;}
+.schanglb{ display:none;}
+.schanglb .top{width:100%; float:left; text-align:center; height:30px; line-height:30px; background:#cccccc; margin-top:20px; font-size:18px;}
+.schanglb .bflbbox{float:left; margin-top:20px;width:50%;}
+.schanglb .bflbbox ul{}
+.schanglb .bflbbox ul li{width:100%;}
+.schanglb .bflbbox ul li a{width:100%; float:left; text-align:center;height:30px; line-height:30px;font-size:17px; text-decoration:none;}
+.schanglb .bflbbox ul li a:hover{color:#F00;}
+
 @media screen and (max-width:768px){
 .main {margin:0 auto;width:100%;}	
 .middle{box-shadow:none;}
 .tihaolb{display:none;}
+#pagetest .right{width:100%;}
 #pagetest .main3{width:100%; padding:0; float:left;}
 .place{height:60px; width:100%; line-height:60px; font-size:16px; float:left; color:#ff6666;}
 .place .four{display:none;}
@@ -539,6 +554,7 @@ header{padding-top:34px;height:80px}
                 #togglelist li:hover{
                     background-color: rgba(26,188, 156, 0.75);
                 }
+.schanglb{ display:block;}
 }
 
 
