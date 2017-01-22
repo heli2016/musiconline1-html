@@ -69,11 +69,11 @@ $(obj).parent().siblings().children().css('color','black');
 <div class="tit6">
 分级试题
 </div>
-<div class="tit8">
-<a href="#">∧</a>
+<div class="tit8" onClick="up()">
+<a href="javascript:;">∧</a>
 </div>
 <div class="l_t_lb">
-<ul>
+<ul id="u">
 <li class="tit7"><a href="#" onclick="change_bg(this)">第1题</a></li>
 <li class="tit7"><a href="#" onclick="change_bg(this)">第2题</a></li>
 <li class="tit7"><a href="#" onclick="change_bg(this)">第3题</a></li>
@@ -106,10 +106,38 @@ $(obj).parent().siblings().children().css('color','black');
 <li class="tit7"><a href="#">第30题</a></li>
 </ul>
 </div>
-<div class="tit8">
-<a href="#">∨</a>
+<div class="tit8" onClick="down()">
+<a href="javascript:;">∨</a>
 </div>
-
+<script type="text/javascript">
+var m=0;
+var length=$("#u li").length;
+function up(){
+	var li=$("#u li:last-child");
+    	var bottom=parseInt(li.css('margin-bottom'));
+		if(m!=0){
+		var newLi=li.clone();
+		$("#u").prepend(newLi);
+		li.remove();
+		m--;
+		}
+}
+function down(){
+	var li=$("#u li:first");
+    	var top=parseInt(li.css('margin-top'));
+		top-=30;
+		if(m<length-18){
+		if(top<=-30){
+    		var newLi=li.clone();
+    		newLi.css("margin-top",0);
+    		$("#u").append(newLi);
+    		li.remove();
+			m++;
+    	}else{
+    	}
+		}
+}
+</script>
 </div>
 </div>
 <div class="right">
@@ -128,6 +156,9 @@ $(obj).parent().siblings().children().css('color','black');
 </div>
 
 <div class="shiti">
+<div class="zzbfbox">
+正在播放：p17交响乐
+</div>
 <div class="shichangbox">
 <div class="shichangbox0">
 <audio preload="auto" controls>
@@ -139,15 +170,46 @@ $(obj).parent().siblings().children().css('color','black');
 </div>
 </div>
 
+<div class="ypbox">
+<div class="imgbox">
+<img src="images/shiimg.png" alt="">
+</div>
+</div>
+<div class="scprebox">
+<div class="scpre">
+<a href="#">上一题 p16交响乐</a>
+</div>
+<div class="scpre">
+<a href="#">下一题 p18交响乐</a>
+</div>
+</div>
 
-<div class="pnbox ml20">
-<a href="#">上一题</a>
+<div class="schanglb">
+<div class="top">
+播放列表
 </div>
-<div class="pnbox">
+<div class="bflbbox">
+<ul>
+<li><a href="#">p11交响乐</a></li>
+<li><a href="#">p12交响乐</a></li>
+<li><a href="#">p13交响乐</a></li>
+<li><a href="#">p14交响乐</a></li>
+<li><a href="#">p15交响乐</a></li>
+<li><a href="#">p16交响乐</a></li>
+
+</ul>
 </div>
-<div class="pnbox">
-<a href="#">下一题</a>
+<div class="bflbbox">
+<ul>
+<li><a href="#">p18交响乐</a></li>
+<li><a href="#">p19交响乐</a></li>
+<li><a href="#">p20交响乐</a></li>
+<li><a href="#">p21交响乐</a></li>
+</ul>
 </div>
+</div>
+
+
 
 </div>
 
